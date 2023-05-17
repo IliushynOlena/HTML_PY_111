@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Intro to CSS</title>
+    <!-- CSS Selectors -->
+     <!-- create selector
+        type{
+            property:value;
+            property:value;
+            property:value;
+        } -->
+    <style>    
+       h1,h2{
+        background-color: blue;
+        color: white;
+      
+        border-radius: 8px;
+        box-shadow: 10px 12px 10px black;
+        border: 2px solid lightskyblue;
+       }
+       h1,h2,h3{      
+        text-align: center;       
+       }
+      
+       p{
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 180%;
+       }
+       code{
+        background-color: black;
+        color: white;
+        font-size: 22px;
+        font-family: monospace;
+        padding: 4px;
+        border-radius: 4px;
+       }
+       mark{
+        text-transform:uppercase;
+        font-weight: 200;
+        letter-spacing: 10px;
+       }
+       /*Class selector*/
+       .main-word{
+        color: red;
+        font-size: 22px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        padding: 1px;
+       }
+       .styled
+       {
+        text-decoration: underline;
+        font-weight: normal;
+       }
+       body{
+        font-family: Arial, Helvetica, sans-serif;
+       }
+       .serif-font
+       {
+        font-family: serif;
+       }
+       .sans-serif-font
+       {
+        font-family :sans-serif;
+       }
+       .monospace-font
+       {
+        font-family: monospace;
+       }
+       .cursive-font
+       {
+        font-family: cursive;
+       }
+       .fantasy-font
+       {
+        font-family: fantasy;
+       }
+      
+       #maint-title{
+        background-color: aqua;
+        color: black;
+        border-color: black;
+       }
+       .span-class{
+        font-family: fantasy;
+        color: gray;
+        text-decoration: underline;
+       }
+
+    </style>
+</head>
+<body>
+    <h1 id="maint-title">Intro to <abbr title="Cascading Style Sheets">CSS</abbr> </h1>
+    <p> <strong>CSS</strong>  is a special style language used to describe the appearance of 
+        pages. The pages themselves are written in data markup languages. 
+        CSS is the core technology of the World Wide Web, along with 
+        HTML and JavaScript. Ut, 
+        eaque doloribus temporibus quos facere ab ea in, deleniti ex 
+        est quo natus qui nostrum accusamus ad illum totam architecto 
+        repellendus aut a odit laboriosam. Illo facilis excepturi soluta 
+        debitis, nisi placeat ullam quidem dolor expedita impedit 
+        suscipit dolores nihil vitae?</p>
+        <hr>
+        <p>H<sub>2</sub>O <br> 2<sup>3</sup> = 8</p>
+        <p>Lorem ipsum dolor sit, <span class="span-class">amet consectetur adipisicing elit.</span>  Fugiat, molestias!</p>
+<!-- <tag style="properties"></tag> -->
+    <h2 style="background-color: blue;color:white;text-align:center">Inline styles</h2>
+    <p style="color:cyan; font-style:italic;font-weight:600">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Dicta quibusdam quia maxime eius saepe accusantium mollitia
+          non iure aliquid sint, eligendi odit unde accusamus architecto 
+          dignissimos aut ad dolore facilis.</p>
+
+    <h2 >Styling using CSS SElectors</h2>
+    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         <mark> Dicta quibusdam quia maxime eius saepe accusantium</mark> mollitia
+         <mark> Dicta quibusdam quia maxime eius saepe accusantium</mark> mollitia
+         <mark> Dicta quibusdam quia maxime eius saepe accusantium</mark> mollitia
+          non iure aliquid sint, eligendi odit unde accusamus architecto 
+          dignissimos aut ad dolore facilis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Officiis obcaecati facilis quas eum culpa ad ut, 
+        nesciunt omnis animi reprehenderit quo sint iusto sequi deserunt 
+        nostrum molestiae laudantium quia at?</p>
+        <h2 >Styling using CSS SElectors</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Ipsam unde quibusdam maxime ad provident est explicabo 
+            ab laboriosam omnis. Debitis?<br>
+            <code>int a = 5;</code><br>
+            <code>Console.WriteLine("Hello world");</code><br>
+            <code>for(int i = 0; i < 10; i++;){}</code>
+        </p>
+        <h2 >Styling using CSS SElectors</h2>
+        <p> <strong class="main-word">Lorem ipsum, dolor sit amet consectetur</strong>  adipisicing elit. 
+            Ipsa incidunt molestias quis sint nesciunt est cupiditate,
+            <strong class="styled">ducimus illum </strong> voluptates quas neque sunt corrupti fuga 
+            <strong>animi dolorum. </strong> Nisi, est cupiditate! Rerum amet animi, laudantium necessitatibus voluptatem, laborum optio commodi sit temporibus quos dignissimos. Dolores dignissimos doloremque asperiores temporibus, eligendi soluta cupiditate.</p>
+        <h2 >Standart Font types</h2>
+        <h2 >Serif-font type</h2>
+        <p class="serif-font">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Iure repellat ducimus esse, vitae vel eos voluptatum 
+            labore, eligendi dolor reiciendis culpa! Eum fugiat 
+            explicabo hic ratione sed debitis earum sapiente?</p>
+            <h2 >Sans Serif-font type</h2>
+        <p class="sans-serif-font">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Iure repellat ducimus esse, vitae vel eos voluptatum 
+            labore, eligendi dolor reiciendis culpa! Eum fugiat 
+            explicabo hic ratione sed debitis earum sapiente?</p>
+            <h2 >Monospace type</h2>
+        <p class="monospace-font">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Iure repellat ducimus esse, vitae vel eos voluptatum 
+            labore, eligendi dolor reiciendis culpa! Eum fugiat 
+            explicabo hic ratione sed debitis earum sapiente?</p>
+            <h2 >Cyrsive type</h2>
+        <p class="cursive-font">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Iure repellat ducimus esse, vitae vel eos voluptatum 
+            labore, eligendi dolor reiciendis culpa! Eum fugiat 
+            explicabo hic ratione sed debitis earum sapiente?</p>
+        <h2 >Fantasy type</h2>
+        <p class="fantasy-font">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Iure repellat ducimus esse, vitae vel eos voluptatum 
+            labore, eligendi dolor reiciendis culpa! Eum fugiat 
+            explicabo hic ratione sed debitis earum sapiente?</p>
+            <h3>Hello world</h3>
+
+
+    
+</body>
+</html>
