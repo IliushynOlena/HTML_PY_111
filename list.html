@@ -14,7 +14,7 @@
             list-style-image: url(./markers/leaf.png);
         }
         ol{
-            list-style-type: upper-roman;
+            /*list-style-type: upper-roman;*/
         }
       
         dt{
@@ -65,6 +65,20 @@
         #summer li{list-style-image: url(./markers/sun.png);}
         #autumn li{list-style-image: url(./markers/rain.png);}
 
+        div>p>span{
+            color: red;;
+        }
+        ol ul {
+            color: rgb(48, 223, 48);
+        }
+        ol ul ul 
+        {
+            color: rgb(226, 173, 73);
+        }
+        ol ul ul ul
+        {
+            color: rgb(73, 101, 226);
+        }
     </style>
 </head>
 <body>
@@ -74,7 +88,19 @@
     <ol>
         <li id="winter">Winter
             <ul>
-                <li>December</li>
+                <li>December  
+                    <ul>
+                    <li>Lorem, ipsum dolor.
+                        <ul>
+                            <li>Lorem, ipsum.</li>
+                            <li>Consequuntur, ipsa.</li>
+                            <li>Sapiente, nulla?</li>
+                        </ul>
+                    </li>
+                    <li>Sed, exercitationem nihil!</li>
+                    <li>Mollitia, aspernatur voluptatum!</li>
+                    <li>Quae, cum voluptatem!</li>
+                </ul></li>
                 <li>January</li>
                 <li>February</li>
             </ul>
@@ -95,7 +121,9 @@
         </li>
         <li id="autumn">Autumn
             <ul>
-                <li>September</li>
+                <li>September
+                   
+                </li>
                 <li>October</li>
                 <li>November</li>
             </ul>

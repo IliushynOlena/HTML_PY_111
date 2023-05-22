@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style> 
+        table{
+            border: 1px solid black;
+            border-collapse: separate;
+            border-spacing: 10px;
+            /*background-color: rgb(172, 237, 237);*/
+            background-image: url(./module_5_1_intro/bg_1.jpg);
+            empty-cells: hide;
+        }
+        tr{
+            /*background-color: rgb(172, 196, 131);*/
+            background-image:url(./module_5_1_intro/bg_2.jpg) ;
+        }
+        th{
+            border: 1px solid rgb(229, 17, 17);
+        }
+        td{
+            border: 1px solid rgb(32, 7, 200);
+        }
+        #uniq
+        {
+            width: 30vw;
+            height: 20vh;
+            text-align:center;
+            vertical-align:middle;
+            /*background-color: rgb(206, 176, 221);*/
+            background-image: url(./module_5_1_intro/bg_3.jpg);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
+        </tr>
+        <tr>
+            <td>Lorem ipsum </td>
+            <td>Reprehenderit </td>
+            <td>Quidem illo </td>
+        </tr>
+        <tr>
+            <td>Lorem ipsum</td>
+            <td id="uniq">Reprehenderit </td>
+            <td>Quidem illo </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Reprehenderit </td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>
