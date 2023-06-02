@@ -1,0 +1,51 @@
+ form{
+        background-color: rgb(181, 180, 179);
+        padding: 20px;
+        border-radius: 6px;
+
+        display: flex;
+        flex-direction: column;
+
+        max-width: 500px;
+        margin: auto;
+       }
+       label{
+        display: inline-grid;
+        grid-template-columns: 100px 1fr;
+        align-items: center;
+        margin-bottom: 10px;
+        font-size: 15px;
+        font-weight: bold;
+       }
+       label input{
+        flex-grow: 1;
+       }
+       label input[type="color"]
+       {      
+          width: 100%;
+       }
+       form h2{
+        text-align: center;
+       }
+       input{
+        background-color: rgb(245, 248, 206);
+        border: none;
+        padding: 5px;
+        border-radius: 4px;
+        transition: .3s;
+       }
+       input:focus{
+        outline: none;
+        background-color: rgb(239, 245, 154);
+        box-shadow: 2px 2px 10px;
+       }
+       button{
+        background-color:  rgb(249, 254, 170);
+        border: none;
+        padding: 10px;
+        border-radius: 4px;
+        margin: 5px;
+       }
+       button:hover{
+        box-shadow: 2px 2px 10px black;
+       }
